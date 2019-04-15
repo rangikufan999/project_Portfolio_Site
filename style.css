@@ -1,0 +1,308 @@
+@media only screen and (min-width: 992px){
+	body{
+		margin:0;
+		padding-right:0;
+	    background: url("images/splash-bg-image.jpg");
+	    background-repeat: no-repeat;
+	    background-color:#f8f9fa !important;
+	}
+
+	.jumbotron{
+		margin-top:30%;
+		margin-bottom:15% !important;
+	}
+
+	hr{
+		width:65%;
+	}
+
+	p, h1{
+		margin-bottom:0;
+	}
+
+	.about-me-h1{
+		padding-top:3%;
+	}
+	.about-me{
+		margin-top:12.5%;
+	}
+	.about-row{
+		margin-left:0 !important;
+		margin-right:0 !important;
+	}
+
+	.card-me{
+		margin-top:50px;
+		width:700px;
+	}
+
+	.card-about{
+		margin-top:-20px;
+	}
+
+	.card-img-top{
+
+		margin-left:auto;
+		margin-right:auto;
+		height:400px;
+	}
+
+	.row{
+		margin-top:7.5%;
+		margin-bottom:7.5%;
+	}
+
+	.image-resize{
+		width:300px;
+		height:200px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.image-project{
+		width:200px;
+		height:250px;
+	}
+
+	.iu-img{
+		width:75px;
+		height:75px;
+	}
+
+	.row{
+		margin-right:0 !important;
+		margin-left:0 !important;
+	}
+
+	.rowEducation{
+		margin-left:0 !important;
+		text-align:center;
+		font-size:34px;
+		display:block !important;
+	}
+
+	.rowEducation div{
+		text-align:center;
+	}
+
+	.rowEducation div table{
+		margin-left: 510px !important;
+		font-size:34px;
+	}
+
+	.rowEducation div p{
+		font-size:34px;
+	}
+
+	.rowEducation div h5{
+		font-size:38px;
+		margin-bottom:35px;
+	}
+
+	.container h1{
+		margin-top:7.5px;
+		font-size:36px;
+	}
+
+	.container h3{
+		font-size:32px;
+	}
+
+	.card{
+		margin-bottom:7.5px;
+		margin-top:7.5px;
+	}
+
+	.card-about{
+		top:-50px;
+		right:12.5px;
+	}
+}
+
+@media only screen and (min-width: 660px) and (max-width:992px){
+	body{
+		margin:0;
+		padding-right:0;
+	    background: url("images/splash-bg-image.jpg");
+	    background-repeat: no-repeat;
+	    background-color:#f8f9fa !important;
+	}
+
+	.jumbotron{
+		margin-top:30%;
+		margin-bottom:15% !important;
+	}
+
+	hr{
+		width:65%;
+	}
+
+	p, h1{
+		margin-bottom:0;
+	}
+	.about-me{
+		margin-top:8rem;
+	}
+
+	.about-me-h1{
+		padding-top:5%;
+	}
+
+	.image-resize{
+		width:250px;
+		height:250px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.image-project{
+		width:200px;
+		height:250px;
+	}
+
+	.iu-img{
+		display:block;
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:7.5px;
+		margin-bottom:7.5px;
+	}
+
+	.row{
+		margin-right:0 !important;
+		margin-left:0 !important;
+	}
+
+	.rowEducation{
+		margin-left:0 !important;
+		text-align:center;
+		font-size:22px;
+		display:block !important;
+	}
+
+	.rowEducation div{
+		text-align:center;
+	}
+
+	.rowEducation div table{
+		margin-left: 230px !important;
+		font-size:18px;
+	}
+
+	.rowEducation div p{
+		font-size:20px;
+	}
+
+	.container h1{
+		margin-top:7.5px;
+		font-size:28px;
+	}
+
+	.container h3{
+		font-size:26px;
+	}
+
+	.card{
+		margin-bottom:7.5px;
+		margin-top:7.5px;
+	}
+
+	.card-about{
+		top:-50px;
+		right:12.5px;
+	}
+}
+
+@media only screen and (max-width: 660px){
+	body{
+		margin:0;
+		padding-right:0;
+	    background: url("images/splash-bg-image.jpg");
+	    background-repeat: no-repeat;
+	    background-color:#f8f9fa !important;
+	}
+
+	.jumbotron{
+		margin-top:30%;
+		margin-bottom:15% !important;
+	}
+
+	hr{
+		width:65%;
+	}
+
+	p, h1{
+		margin-bottom:0;
+	}
+	.about-me{
+		margin-top:2rem;
+	}
+	.about-me-h1{
+		padding-top:12%;
+	}
+
+	.image-resize{
+		width:200px;
+		height:150px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.image-project{
+		width:150px;
+		height:150px;
+	}
+
+	.media{
+		width:300px;
+	}
+
+	.row{
+		margin-right:0 !important;
+		margin-left:0 !important;
+	}
+
+	.rowEducation{
+		margin-left:0 !important;
+		text-align:center;
+		font-size:22px;
+		display:block !important;
+	}
+
+	.rowEducation div{
+		text-align:center;
+	}
+
+	.rowEducation div table{
+		margin-left: 60px !important;
+		font-size:14px;
+	}
+
+	.rowEducation div p{
+		font-size:16px;
+	}
+
+	.mr-3{
+		margin:left: 40px !important;
+	}
+
+	.mr-5, {
+		margin-right:0 !important;
+	}
+
+	.container h1{
+		margin-top:7.5px;
+		font-size:22px;
+	}
+
+	.container h3{
+		font-size:20px;
+	}
+
+	.card{
+		margin-bottom:7.5px;
+		margin-top:7.5px;
+	}
+}
+
