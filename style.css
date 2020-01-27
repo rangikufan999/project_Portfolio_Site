@@ -1,9 +1,18 @@
+.topMarg{
+	margin-top:30% !important;
+}
+
+.transp{
+	
+	background-color: rgba(52, 58, 64, 0.9) !important;
+	color:white !important;
+}
+
 @media only screen and (min-width: 1060px){
 	body{
 		margin:0;
 		padding-right:0;
 	    background: url("images/splash-bg-image.jpg");
-	    background-repeat: no-repeat;
 	    background-color:#f8f9fa !important;
 	}
 
@@ -47,10 +56,10 @@
 		height:400px;
 	}
 
-	.row{
+	/*.row{
 		margin-top:7.5%;
 		margin-bottom:7.5%;
-	}
+	}*/
 
 	.image-resize{
 		width:300px;
@@ -128,7 +137,6 @@
 		margin:0;
 		padding-right:0;
 	    background: url("images/splash-bg-image.jpg");
-	    background-repeat: no-repeat;
 	    background-color:#f8f9fa !important;
 	}
 
@@ -161,7 +169,7 @@
 
 	.image-project{
 		width:150px;
-		height:150px;
+		height:250px;
 	}
 
 	.iu-img{
@@ -223,9 +231,7 @@
 	}
 	
 
-	.btn{
-		font-size:9px !important;
-	}
+	
 }
 
 @media only screen and (max-width: 660px){
@@ -233,7 +239,6 @@
 		margin:0;
 		padding-right:0;
 	    background: url("images/splash-bg-image.jpg");
-	    background-repeat: no-repeat;
 	    background-color:#f8f9fa !important;
 	}
 

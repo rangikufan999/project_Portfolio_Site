@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-	    </head>
+        </head>
     <body>
-    	<!-- NAVBAR SECTION -->
-        <nav class="navbar navbar-flex sticky-top bg-dark">
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar navbar-flex sticky-top transp">
             <div class="d-flex justify-content-start">
                 <a class="navbar-brand text-white" href="#">Brandyn Porter</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
             </div>
             <div class="d-flex justify-content-end">
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Explore
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -35,84 +35,67 @@
             </div>
             
         </nav>
-    	<!-- BODY CONTENT -->
-        <div>
-            <div class="jumbotron jumbotron-fluid">
+        <!-- BODY CONTENT -->
+        <!-- <div>
+            <div class="jumbotron jumbotron-fluid mx-5">
                 <h1 class="text-center">Welcome to my portfolio page</h1>
                 <hr/>
             </div>
-        </div>
-        <div class="bg-dark mt-0 mb-0">
-            <h1 class="text-center text-white mt-0 mb-0 about-me-h1" style="height:150px;" id="about">About Me</h1>
+        </div> -->
+        <br/>
+        <div class=" mb-0 topMarg transp">
+            <h1 class="text-center mt-0 mb-0 about-me-h1" style="height:150px;" id="about">About Me</h1>
         </div>
 
-        <div class="row bg-light mt-0 about-row">
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div class="card card-me display-inline">
-                    <img class="card-img-top text-center" src="images/brandyn.jpg" alt="Brandyn, a.k.a. Me">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark text-center">Brandyn Porter</h5>
-                        <hr/>
-                        <p class="card-text text-dark text-center">Web Developer</p>
-                        <a href="#projects" class="btn btn-primary d-flex justify-content-center">Check out my projects!</a>
+        <div class="row bg-light mt-0 about-row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                <div class="card bg-light border-0">
+                    <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class=" bg-light text-center">
+                                <img class="card-img-left rounded" src="images/brandyn.jpg" alt="Me" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6"> 
+                            <div class="card-block text-center">
+                                <h4 class="card-title">About Me</h4>
+                                <p>Junior Web Developer with experience in the following web technologies: </p><br/>
+                                <p class="text-primary"><i class="fab h1 fa-html5"></i>  <i class="fab h1 fa-css3"></i>  <i class="fab h1 fa-js"></i>  <i class="fab h1 fa-node"></i><i class="fab h1 fa-bootstrap"></i>  <i class="fab h1 fa-github"></i></p><br/>
+                                <p>With additional experience in jQuery and angularJS</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 about-me">
-                <div class="card display-inline card-about">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark text-center">About Me</h5>
-                        <hr/>
-                        <p class="card-text text-dark text-center">Thanks for stopping by my page! My name is Brandyn, a web developer. I've had a passion for coding ever since I took a semester of web development in highschool my sophomore year of 2011. I've worked with not only the basics of HTML, CSS, and JavaScript for nearly 7 years and I have even studied some web technologies in the last year or so. These include Bootstrap, which powers the way this site looks, jQuery, and even some neat server-side technologies like Node.js, Express, and Mongoose. My goals aim at furthering my career and becoming a better developer while pursuing personal ventures like developing games, writing, and drawing.</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
-        <div class="bg-dark mt-0 mb-0">
+        <div class="transp mb-0">
             <h1 class="text-center text-white mt-0 mb-0 about-me-h1" style="height:150px;" id="experience">Education and Experience</h1>
         </div>
-        <div class="mt-0 mb-0 bg-light">
-            <div class="ml-0 row rowEducation">
-                
-                <div>
-                    <h5 class="mt-0"><u>Formal Education</u></h5>
-                    <img class="image-resize" src="images/education.jpg" alt="Education Thumbnail">
-                    <p class="h3">- Bachelor's in Web Design and Development </p><br/>
-                    <a href="https://www.independence.edu/"><img class="iu-img" src="images/iu.png" /></a>
-                </div>
+        <div class="row m-0 bg-light justify-content-center">
+            
+            <div class="col-sm-12 col-md-8 col-lg-12 col-xl-5 text-center">
+                <h1 class="mt-0"><u>Formal Education</u></h1>
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/education.jpg" alt="Education Thumbnail">
+                    <div class="card-body">
+                        <p class="h3">Bachelor's in Web Design and Development </p><br/>
+                        <a href="https://www.independence.edu/"><img class="iu-img" src="images/iu.png" /></a>
+                    </div>
+                </div> 
             </div>
-            <hr/>
-            <div class="row rowEducation">
-                
-                <div>
-                    <h5 class="mt-0"><u>Online Courses</u></h5>
-                    <img class="mr-3 image-resize" src="images/experience.jpg" alt="Education Thumbnail">
-                    <p class="h3">- Colt Steele's Web Developer Boot Camp</p>
-                </div>
-            </div> 
-            <hr/>
-            <div class="row rowEducation">
-                
-                <div>
-                    <h5 class="mt-0"><u>Technologies and Experience</u></h5>
-                    <img class="mr-3 image-resize" src="images/technology.jpg" alt="Education Thumbnail">
-                    <br/>
-                    <h5 class="text-center"><u>My Skills</u></h5>
-                    <p>HTML<br/> CSS<br/> JavaScript<br/> jQuery<br/> Bootstrap<br/> angularJS<br/> nodeJS<br/> github</p>
-                    <br/>
-                </div>
-            </div>
+            <hr/> 
         </div>
 
         <!-- PROJECT CONTENT -->
-        <div class="bg-dark mt-0 mb-0">
+        <div class="transp my-0">
             <h1 class="text-center text-white mt-0 mb-0 about-me-h1" style="height:150px;" id="projects">My Projects</h1>
         </div>
 
         <div class="bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../statCalculator/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/stat_calc.png" alt="Stat Calculator"></a>
                             <div class="card-body text-center">
@@ -124,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../kanjiApp/kanji.html" target="_blank"><img class="card-img-top text-center image-project" src="images/kanji_app.png" alt="Kanji Flash Card App"></a>
                             <div class="card-body text-center">
@@ -136,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../rukia_fansite/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/rukia_site.png" alt="Rukia Fan Site"></a>
                             <div class="card-body text-center">
@@ -150,7 +133,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../budgetApp/budget.html" target="_blank"><img class="card-img-top text-center image-project" src="images/budgetApp.png" alt="Budget App" /></a>
                             <div class="card-body text-center">
@@ -165,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../pokedexApp/pokeapp.html" target="_blank"><img class="card-img-top text-center image-project" src="images/pokedexApp.png" alt="Pokedex App" /></a>
                             <div class="card-body text-center">
@@ -181,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../catRescue/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/catRescue.png" alt="Cat Site" /></a>
                             <div class="card-body text-center">
@@ -199,7 +182,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../calculatorApp/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/calc.png" alt="Calculator App" /></a>
                             <div class="card-body text-center">
@@ -217,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../gameClubSite/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/gameClub.png" alt="Game Club Site" /></a>
                             <div class="card-body text-center">
@@ -236,7 +219,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
                             <a href="../taskListApp/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/taskList.png" alt="Task List App" /></a>
                             <div class="card-body text-center">
@@ -256,88 +239,44 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="card">
-                            <a href="../waterPark/index.html" target="_blank"><img class="card-img-top text-center image-project" src="images/waterPark.png" alt="Water Park Site" /></a>
+                                <a href="https://gear-create-app.herokuapp.com" target="_blank"><img class="card-img-top text-center image-project" src="images/screenshot_gearApp.png" alt="Brandyn, a.k.a. Me"></a>
                             <div class="card-body text-center">
-                                <h5 class="card-title text-dark text-center">
-                                    Azure Rapid's Water Park Website
-                                </h5>
+                                <h5 class="card-title text-dark text-center">Gear  Create App</h5>
                                 <hr/>
-                                <p class="card-text text-dark text-center">
-                                    Basic Layout practice using HTML and CSS
-                                </p>
-                                <a href="https://github.com/rangikufan999/project_WaterPark_Site" target="_blank"><i class="fab fa-github h3"></i></a>
-                                <br/>
-                                <a href="../waterPark/index.html" target="_blank" class="btn btn-primary d-flex justify-content-center">
-                                Check out this project!</a>
+                                <p class="card-text text-dark text-center">Nodejs and Express App connected to MongoDB. Uses CRUD based operations and has a functioning Login System.</p>
+                                <a href="https://gear-create-app.herokuapp.com" class="btn btn-primary d-flex justify-content-center">Check out my projects!</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-               <!--  <div class="row mt-2 mb-2">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card">
-                            <img class="card-img-top text-center image-project" src="images/pseudo_blog_post.png" alt="Brandyn, a.k.a. Me">
-                            <div class="card-body text-center">
-                                <h5 class="card-title text-dark text-center">Example Blog Post Styling</h5>
-                                <hr/>
-                                <p class="card-text text-dark text-center">Simple example of typographical styling using css.</p>
-                                <a href="#" class="btn btn-primary d-flex justify-content-center">Check out my projects!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card">
-                            <img class="card-img-top text-center image-project" src="images/landing_page_example.png" alt="Brandyn, a.k.a. Me">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark text-center">Landing Page</h5>
-                                <hr/>
-                                <p class="card-text text-dark text-center">A mockup of an example Landing Page done with bootstrap.</p>
-                                <a href="#" class="btn btn-primary d-flex justify-content-center">Check out my projects!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card">
-                            <img class="card-img-top text-center image-project" src="images/todo_list.png" alt="Brandyn, a.k.a. Me">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark text-center">To Do List</h5>
-                                <hr/>
-                                <p class="card-text text-dark text-center">A to do List programmed with jQuery, JavaScript and styled with css.</p>
-                                <a href="#" class="btn btn-primary d-flex justify-content-center">Check out my projects!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <img class="img-thumbnail rounded mx-auto d-block" src="images/yelp_camp.png" alt="YelpCamp Project" />
-                <hr/>
-                <a href="#" class="d-flex justify-content-center">Visit My YelpCamp Prototype Here!</a>-->
-            </div>
         </div>
 
-        <div class="bg-dark mt-0 mb-0">
+        <div class="transp">
             <br/>
-            <h1 class="text-center text-white mt-0 mb-0 about-me-h1" style="height:150px;" id="contact">Contact me</h1>
+            <h1 class="text-center text-white about-me-h1" style="height:150px;" id="contact">Contact me</h1>
             <br/>
         </div>
             
-        <div class="container">
-            <h1 class="text-center">
-                You can contact me at the following email addresses:
-            </h1><br/><br/>
-            <h3 class="text-center"><strong>Personal Email:</strong> rangikufan999@gmail.com</h3><br/>
-            <h3 class="text-center"><strong>Business Email:</strong> b.porter.webdev@gmail.com</h3>
+        <div class="bg-light row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1 class="text-center my-0">
+                    You can contact me at the following email addresses:
+                </h1>
+                <h3 class="text-center"><strong>Personal Email:</strong> rangikufan999@gmail.com</h3><br/>
+                <h3 class="text-center"><strong>Business Email:</strong> b.porter.webdev@gmail.com</h3>
+                <div class="text-center h1">
+                    <a href="https://twitter.com/PorterBrandyn"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/rangikufan999"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/brandyn-porter-webdev"><i class="fab fa-linkedin"></i></a>            
+                </div>
+            </div>
         </div>
-        <br/>
-    	<!-- FOOTER CONTENT -->
+        
+        <!-- FOOTER CONTENT -->
 
-        <div class="bg-light text-center h1">
-            <a href="https://twitter.com/PorterBrandyn"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/rangikufan999"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/brandyn-porter-webdev"><i class="fab fa-linkedin"></i></a>            
-        </div>
+        
     </body>
 </html>
